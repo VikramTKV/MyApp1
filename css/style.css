@@ -1,0 +1,251 @@
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {
+	  margin-bottom: 30px;
+	  font-size:40px;
+	  font-weight:bold;
+	 
+	  text-transform: uppercase;
+	  }
+  .margin2 {
+	  margin-bottom: 0px;
+	  font-size:40px;
+	  font-weight:bold;
+	  
+	  text-transform: uppercase;
+	  }
+	  .margin1 {
+	  margin-bottom: 40px;
+	 
+	  }
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .bg-5 {
+      background-color: #F0F1F1; /* Gray */
+      color: #555555;
+  }
+   .bg-6{
+	  background-color: #EFF1F1;
+	  color:#555555;
+  }
+  .container-fluid {
+      padding-top: 40px;
+      padding-bottom: 70px;
+  }
+  .container-news {
+      padding-top: 40px;
+      padding-bottom: 70px;
+	  padding-left: 60px;
+	  padding-right: 40px;
+	  
+  }
+   .container-slide {
+      
+      padding-bottom: 0px;
+  }
+  .navbar {
+    
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+       line-height: 0;
+    position: relative;
+  
+  padding:15px 0px 40px 0px;
+	  
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+hr {
+	background-color: #666666; height: 1px; border: 0;
+	}  
+
+/*Membership*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #24C4F3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0px 20px 0px;
+  
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.mtitle{
+	color:#f5f6f7;
+	font-size:25px;
+	text-align:center;
+	background-color:#2f2f2f;
+	width:100%;
+}
+.minner{
+	font-weight:bold;
+	text-align:center;
+	font-size:25px;
+}
+
+.minner1{
+	text-align:center;
+	color:#bfbfbf;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+	
+	
+/*Video*/
+.mainvid{
+    position:relative;
+    height:100%;
+    width:100%;
+    min-width:500px;
+	
+	bottom:100px;
+}
+.leftvid{
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:600px;
+    width:300px;
+    left:30px;
+	right:30px;
+}
+.middlevid{
+    height:150px;
+    width:300px;
+ 
+    margin:0px auto;
+}
+.rightvid{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:150px;
+    width:300px;
+    
+}
+	
+
+/*Footer*/
+
+#fh5co-footer {
+  padding: 7em 0;
+  float: left;
+  width: 100%;
+  position: relative;
+  background: #262626;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-footer {
+    padding: 2em 0;
+  }
+}
+
+#fh5co-footer h3 {
+  font-size: 18px;
+}
+
+#fh5co-footer .float {
+  float: left;
+  margin-right: 10%;
+}
+#fh5co-footer ul {
+  padding: 0;
+  margin: 0;
+}
+#fh5co-footer ul li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+#fh5co-footer ul li a {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none !important;
+}
+#fh5co-footer ul li a:hover {
+  color: #fff;
+}
+
+/*--top--*/
+#custom-search-input{
+    padding: 3px;
+    border: 0;
+    border-radius: 0px;
+    background-color: #052D5B;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+	background-color: #052D5B;
+}
+
+#custom-search-input button{
+    margin: 0px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    background-color: #052D5B;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+   
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
